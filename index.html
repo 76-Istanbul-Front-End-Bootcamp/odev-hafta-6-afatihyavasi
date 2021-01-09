@@ -11,12 +11,12 @@
 <body style="padding-top: 30px;">
     <div class="container">
         <div class="row">
-            <div class="col-md-4" id="petsHolder">
+            <div class="col-12 d-flex" id="petsHolder">
             </div>
-            <div class="col-md-8">
+            <div class="col-12">
                 <form id="petForm">
                     <div class="mb-3">
-                        <label for="petName" class="form-label">isim</label>
+                        <label for="petName" class="form-label">Name</label>
                         <input type="text" class="form-control" id="petName">
                     </div>
                     <div class="mb-3">
@@ -24,15 +24,17 @@
                         <input type="text" class="form-control" id="petImage">
                     </div>
                     <div class="mb-3">
-                        <label for="petDesc" class="form-label">Aciklama</label>
+                        <label for="petDesc" class="form-label">Description</label>
                         <input type="text" class="form-control" id="petDesc">
                     </div>
                     <button type="submit" class="btn btn-primary" id="petSubmitButton">Submit</button>
                 </form>
             </div>
         </div>
+        
     </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="./odev.js"></script>
     <script src="./petappmodule.js" type="module"></script>
 </body>
